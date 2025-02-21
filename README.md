@@ -1,2 +1,2 @@
-# it103-fullstack-vanilla-js-demo
-This demo serves as guide to create a Proof of Concept (POC) on building Full-stack Vanilla JS Web Application
+# Full-stack Vanilla JS Demo
+This demo serves as a guide for creating a Proof of Concept (POC) for building a Full-Stack Web Application using Vanilla JavaScript.
