@@ -51,3 +51,9 @@ This demo serves as a guide for creating a Proof of Concept (POC) for building a
    ![get](./put.png)
 9. Select Delete data then follow this:
    ![get](./delete.png)
+
+#### Server (Remote)
+In progress
+
+#### Client
+In progress
