@@ -1,6 +1,12 @@
 const TaskAssignment = require('../models/assignmentModel');
 
 const AssignmentController = {
+    getAll: (req, res) => {
+        TaskAssignment.getAll((err, results) => {
+            if (err) return res.status(500).send(err);
+            res.json(results);
+        });
+    },    
     assignTask: (req, res) => {
         const { task_id, user_id, status_id } = req.body;
         if (!task_id || !user_id || !status_id) {

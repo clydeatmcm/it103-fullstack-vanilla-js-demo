@@ -4,7 +4,8 @@ const db = mysql.createConnection({
     host: 'localhost',
     user: 'root',
     password: '',  // Add your MySQL password
-    database: 'taskmgr_normalized'
+    database: 'taskmgr_normalized',
+    port: 3307
 });
 
 db.connect(err => {
