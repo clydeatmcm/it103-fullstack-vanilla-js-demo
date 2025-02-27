@@ -52,3 +52,16 @@ This demo serves as a guide for creating a Proof of Concept (POC) for building a
 9. Select Delete data then follow this:
    ![get](./delete.png)
 
+### **🚀 Summary of API Endpoints**
+| **Method** | **Endpoint**          | **Description**                   |
+|-----------|----------------------|-----------------------------------|
+| GET       | `/tasks`             | Retrieve all tasks               |
+| POST      | `/tasks`             | Create a new task                |
+| PUT       | `/tasks/:id`         | Update a task by ID              |
+| DELETE    | `/tasks/:id`         | Delete a task by ID              |
+| GET       | `/users`             | Retrieve all users               |
+| POST      | `/users`             | Create a new user                |
+| GET       | `/projects`          | Retrieve all projects            |
+| POST      | `/projects`          | Create a new project             |
+| GET       | `/statuses`          | Retrieve all task statuses       |
+| POST      | `/assignments`       | Assign a task to a user          |
