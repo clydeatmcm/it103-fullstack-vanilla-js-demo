@@ -8,6 +8,16 @@ This demo serves as a guide for creating a Proof of Concept (POC) for building a
 * [MySQL remote](https://freedb.tech/) - A database on an online server that can be accessed from anywhere.
 * [Postman](https://www.postman.com/downloads/) - A tool for testing APIs and sending requests to servers.
 
+### Run the scripts
+
+* To run the ```server```
+```bash
+$ cd server
+$ npm start
+```
+
+* To run the ```client```, right click the client/index.html and select "Open with Live Server"
+
 ### Setup
 
 #### Server (Local)
